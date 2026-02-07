@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bob's HVAC | Reliable Heating & Cooling Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <nav class="bg-blue-900 text-white p-4 sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold tracking-tight">BOB'S <span class="text-orange-400">HVAC</span></h1>
+            <a href="tel:5551234567" class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded transition">
+                Call: (555) 123-4567
+            </a>
+        </div>
+    </nav>
+
+    <header class="relative bg-blue-800 text-white py-20 px-6 text-center">
+        <div class="container mx-auto">
+            <h2 class="text-4xl md:text-6xl font-extrabold mb-4">Too Hot? Too Cold?</h2>
+            <p class="text-xl mb-8 text-blue-100">Fast, affordable heating and air conditioning repair you can trust.</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#services" class="bg-white text-blue-900 font-bold py-3 px-8 rounded-lg shadow-md hover:bg-gray-100">Our Services</a>
+                <a href="#contact" class="bg-orange-500 text-white font-bold py-3 px-8 rounded-lg shadow-md hover:bg-orange-600">Get a Free Quote</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="services" class="py-16 px-6 container mx-auto">
+        <h3 class="text-3xl font-bold text-center mb-12">How We Can Help</h3>
+        <div class="grid md:grid-cols-3 gap-8 text-center">
+            <div class="p-6 bg-white rounded-xl shadow-sm border-t-4 border-blue-600">
+                <div class="text-4xl mb-4">❄️</div>
+                <h4 class="text-xl font-bold mb-2">AC Repair</h4>
+                <p>Expert diagnostics and repair for all major air conditioning brands.</p>
+            </div>
+            <div class="p-6 bg-white rounded-xl shadow-sm border-t-4 border-orange-500">
+                <div class="text-4xl mb-4">🔥</div>
+                <h4 class="text-xl font-bold mb-2">Heating Services</h4>
+                <p>Furnace repair and maintenance to keep your home warm all winter.</p>
+            </div>
+            <div class="p-6 bg-white rounded-xl shadow-sm border-t-4 border-blue-600">
+                <div class="text-4xl mb-4">🛠️</div>
+                <h4 class="text-xl font-bold mb-2">Maintenance</h4>
+                <p>Annual tune-ups to extend the life of your HVAC system.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-gray-100 py-16 px-6">
+        <div class="max-w-xl mx-auto bg-white p-8 rounded-2xl shadow-lg">
+            <h3 class="text-2xl font-bold mb-6 text-center">Request a Service Call</h3>
+            <form action="#" class="space-y-4">
+                <div>
+                    <label class="block mb-1 font-medium">Name</label>
+                    <input type="text" placeholder="Your Name" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 outline-none">
+                </div>
+                <div>
+                    <label class="block mb-1 font-medium">Phone Number</label>
+                    <input type="tel" placeholder="(555) 000-0000" class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 outline-none">
+                </div>
+                <div>
+                    <label class="block mb-1 font-medium">Issue</label>
+                    <textarea placeholder="Tell us what's wrong..." class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 outline-none h-32"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-blue-900 text-white font-bold py-3 rounded-lg hover:bg-blue-800 transition">Send Request</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-blue-900 text-gray-400 py-8 text-center">
+        <p>&copy; 2026 Bob's HVAC Services. Licensed and Insured.</p>
+    </footer>
+
+</body>
+</html>
